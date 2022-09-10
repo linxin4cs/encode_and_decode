@@ -1,4 +1,3 @@
-from operator import length_hint
 import utils.base_converter as bc
 import utils.str_handler as sh
 
@@ -120,6 +119,3 @@ def decode(str_origin):
         str_res += chr(bytes_res[i])
 
     return str_res
-
-
-print(decode("aGhoaA=="))
