@@ -1,6 +1,7 @@
 import math
 
-def to_decimal(str, origin_base = 2):
+
+def to_decimal(str, origin_base=2):
     """_summary_
 
     Args:
@@ -18,14 +19,15 @@ def to_decimal(str, origin_base = 2):
     for i in range(str_len):
         if(str[i] != "0"):
             # 判断当前位是否位最后一位
-            if(i == str_len - 1) : 
+            if(i == str_len - 1):
                 res += int(str[i])
             else:
                 res += math.pow(origin_base, str_len - i - 1)
 
     return int(res)
 
-def to_others(number, target_base = 2, bits_len = 8):
+
+def to_others(number, target_base=2, bits_len=8):
     """
     将十进制转换为其他进制
 
