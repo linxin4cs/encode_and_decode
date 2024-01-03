@@ -1,4 +1,4 @@
-# Encode and Decode
+# 编码和解码
 [English](./README.md) | 中文
 
 **一个用于学习编码的仓库**
